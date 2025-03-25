@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("../Image_source/background_pastil.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.kiosk {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: rgb(12, 61, 19);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 10px 30px #f1c40f;
+}
+.top-section{
+    border: solid 3px rgba(156, 91, 29, 0.678);
+    background-color: #dfe6d2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top-section h2{
+    margin: 0;
+    color: #004d00;
+    font-weight: bold;
+}
+
+.top-section{
+    display: flex;
+    gap: 10px;
+}
+
+.top-section button {   
+    background-color: #0c3d13;
+    border: solid black 2px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3 ease;
+}
+
+.top-section button:hover{
+    background-color:  #137c24; 
+    border-color: #f1c40f;    
+    box-shadow: 0 0 10px #f1c40f;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.item-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c3d13;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #000;
+    margin: 15px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.item-label:hover{
+    background-color: #137c24;
+    transform: scale(1.05);
+}
+
+.item-name {
+    font-size: 12px;
+    align-items: center;
+}
+
+.item-price { 
+    font-size: 12px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.order {
+    margin-top: 20px;
+}
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    margin-bottom: 10px;
+}
+.order-item button {
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.category-buttons img {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #004d00; /* Dark green border */
+    padding: 5px;
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.category-buttons img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #f1c40f; /* Golden glow effect */
+}
+
+h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+p {
+    color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-style: italic;
+}
+
+button{
+    display: inline-block;
+    text-align: center;
+    cursor:  pointer;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+    font-weight: bolder;
+    border-radius: 50px;
+    transform: 0.75s ease, box-shadow 0.5s ease;
+}
+
+button:hover{
+    background-color: #0c5318;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #f1c40f;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 10% auto;
+    text-align: center;
+    box-shadow: 0 0 10px #f1c40f;
+}
+.modal-content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.close-btn {
+    float: right;
+     font-size: 24px;
+     cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.opButt{
+    border-radius: 50px;
+    width: 50px;
+}

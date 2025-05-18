@@ -86,7 +86,7 @@
     </style>
 </head>
 <body>
-    <img class="logo" src="Image_source/puss’n till_logo.png" alt="logo">
+    <img class="logo" src="Image_source/puss'n till_logo.png" alt="logo">
     <div class="container">
         <div class="header">
             <h1 class="title">Welcome to Puss 'n Till</h1>

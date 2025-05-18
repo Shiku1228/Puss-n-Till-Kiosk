@@ -1,0 +1,112 @@
+.orders-list {
+    position: relative;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.order-card {
+    position: absolute;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.order-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.top-card {
+    cursor: pointer;
+}
+
+.enlarged-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: 10000;
+    width: 400px;
+    background: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.approve-btn, .decline-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.approve-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.decline-btn {
+    background: #f44336;
+    color: white;
+}
+
+.approve-btn:hover {
+    background: #45a049;
+}
+
+.decline-btn:hover {
+    background: #da190b;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.order-details {
+    padding: 20px;
+}
+
+.order-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.order-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.order-details li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.order-details li:last-child {
+    border-bottom: none;
+} 

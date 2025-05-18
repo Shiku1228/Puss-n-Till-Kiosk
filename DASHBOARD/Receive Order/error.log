@@ -1,0 +1,60 @@
+[06-May-2025 07:01:18 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10}},"totalPrice":10}
+[06-May-2025 07:01:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:36
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(36): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 36
+[06-May-2025 07:05:30 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10}},"totalPrice":10}
+[06-May-2025 07:05:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:41
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(41): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 41
+[06-May-2025 07:05:54 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10}},"totalPrice":10}
+[06-May-2025 07:05:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:41
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(41): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 41
+[06-May-2025 07:08:26 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10},"GurrLick Afraid Sheckan":{"quantity":1,"price":25},"Cock Cola":{"quantity":1,"price":15}},"totalPrice":50}
+[06-May-2025 07:08:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:08:49 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10},"GurrLick Afraid Sheckan":{"quantity":1,"price":25},"Cock Cola":{"quantity":1,"price":15}},"totalPrice":50}
+[06-May-2025 07:08:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:08:57 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10},"GurrLick Afraid Sheckan":{"quantity":1,"price":25},"Cock Cola":{"quantity":1,"price":15}},"totalPrice":50}
+[06-May-2025 07:08:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:12:45 Europe/Berlin] Raw POST data: {"orders":{"GurrLick Afraid Sheckan":{"quantity":1,"price":25}},"totalPrice":25}
+[06-May-2025 07:12:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:12:59 Europe/Berlin] Raw POST data: {"orders":{"Alaymung":{"quantity":4,"price":0}},"totalPrice":0}
+[06-May-2025 07:12:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:13:21 Europe/Berlin] Raw POST data: {"orders":{"Alaymung":{"quantity":4,"price":0},"TayLong":{"quantity":1,"price":0},"Checkyn":{"quantity":1,"price":10}},"totalPrice":10}
+[06-May-2025 07:13:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39
+[06-May-2025 07:14:39 Europe/Berlin] Raw POST data: {"orders":{"Checkyn":{"quantity":1,"price":10}},"totalPrice":10}
+[06-May-2025 07:14:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'orderDetails' in 'field list' in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php:39
+Stack trace:
+#0 C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php(39): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\puss'n_till_kiosk\DASHBOARD\Receive Order\receiveOrder.php on line 39

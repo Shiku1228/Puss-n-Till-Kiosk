@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("/puss'n_till_kiosk/Image_source/background_pastil.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container {
+    background: rgba(9, 204, 19, 0.2);
+    backdrop-filter: blur(30px);
+    width: 50%;
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    height: auto;
+    max-height: 95vh;    
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffde59;
+    text-shadow: 0 0 8px #050505, 0 0 15px #ffcc00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border: 2px solid #ffcc00;
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.7);
+}
+
+input[type="submit"] {
+    background: linear-gradient(135deg, #ffcc00, #ff9800);
+    color: #fff;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.03);
+    box-shadow: 0 3px 10px rgba(255, 204, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.return-btn {
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(135deg, #ff4444, #cc0000);
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.return-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.7);
+}
+
+/* Notification styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    background: rgba(0, 200, 0, 0.9);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 1000;
+    transform: translateX(150%);
+    transition: transform 0.3s ease-out;
+}
+
+.notification.show {
+    transform: translateX(0);
+}
+
+.notification.error {
+    background: rgba(200, 0, 0, 0.9);
+}
